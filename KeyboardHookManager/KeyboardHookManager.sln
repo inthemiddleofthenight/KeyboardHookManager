@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardHookManager", "KeyboardHookManager\KeyboardHookManager.csproj", "{41880A4F-CB9F-4068-9CE5-EAACBAD94166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardHookManager.TestApp", "KeyboardHookManager.TestApp\KeyboardHookManager.TestApp.csproj", "{962AE9F7-6961-423F-B559-8ECCFB802A3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41880A4F-CB9F-4068-9CE5-EAACBAD94166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41880A4F-CB9F-4068-9CE5-EAACBAD94166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41880A4F-CB9F-4068-9CE5-EAACBAD94166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41880A4F-CB9F-4068-9CE5-EAACBAD94166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962AE9F7-6961-423F-B559-8ECCFB802A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962AE9F7-6961-423F-B559-8ECCFB802A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962AE9F7-6961-423F-B559-8ECCFB802A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962AE9F7-6961-423F-B559-8ECCFB802A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {566CB125-AEC6-4E8B-B5C3-9C4D4E0DBF49}
+	EndGlobalSection
+EndGlobal
