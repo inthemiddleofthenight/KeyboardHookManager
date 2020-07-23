@@ -16,6 +16,25 @@ namespace KeyboardHookManager.TestApp
             HookManager.KeyDown += HookManager_KeyDown;
             HookManager.KeyPress += HookManager_KeyPress;
             HookManager.KeyUp += HookManager_KeyUp;
+
+            HookManager.MouseClick += HookManager_MouseClick;
+            HookManager.MouseDoubleClick += HookManager_MouseDoubleClick;
+            HookManager.MouseWheel += HookManager_MouseWheel;
+        }
+
+        private void HookManager_MouseWheel(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            MouseLog.Text += $"MouseWheel {e.Delta}\n";
+        }
+
+        private void HookManager_MouseDoubleClick(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            MouseLog.Text += $"MouseDoubleClick {e.X} - {e.Y} {e.Button.ToString()}\n";
+        }
+
+        private void HookManager_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            MouseLog.Text += $"MouseClick {e.X} - {e.Y} {e.Button.ToString()}\n";
         }
 
         private void HookManager_KeyUp(object sender, System.Windows.Forms.KeyEventArgs e)

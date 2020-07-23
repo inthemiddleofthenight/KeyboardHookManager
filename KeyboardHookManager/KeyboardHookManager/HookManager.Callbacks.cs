@@ -224,7 +224,7 @@ namespace KeyboardHookManager
                     WH_MOUSE_LL,
                     s_MouseDelegate,
                     Marshal.GetHINSTANCE(
-                        Assembly.GetExecutingAssembly().GetModules()[0]),
+                        _module ?? Assembly.GetEntryAssembly().ManifestModule.Assembly.GetModules().FirstOrDefault()),
                     0);
                 //If SetWindowsHookEx fails.
                 if (s_MouseHookHandle == 0)

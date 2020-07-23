@@ -13,7 +13,11 @@
                     <TextBlock Name="KeyboardLog"></TextBlock>
                 </ScrollViewer>
             </TabItem>
-            <TabItem Header="Mouse"></TabItem>
+            <TabItem Header="Mouse">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <TextBlock Name="MouseLog"></TextBlock>
+                </ScrollViewer>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>
