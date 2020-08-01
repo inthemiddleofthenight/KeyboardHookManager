@@ -15,7 +15,7 @@ KeyboardHookManager - dll for global keyboard and mouse event listen.
 
 ### Development
 
-Run at once in ypur desktop app. Also needs select app module for bind event: in
+Run at once in your desktop app. Also needs select app module for bind event: in
 SetWindowsHookEx: set on Init(Module module) or no set and use default: Assembly.GetEntryAssembly().ManifestModule.Assembly.GetModules().FirstOrDefault()
 
 Keyboard Events
